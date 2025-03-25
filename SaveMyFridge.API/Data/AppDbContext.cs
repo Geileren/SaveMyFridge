@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SaveMyFridge.Data.Models;
+using SaveMyFridge.API.Data.Models;
+
 
 namespace SaveMyFridge.Data
 {
@@ -8,6 +9,7 @@ namespace SaveMyFridge.Data
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options) { }
         public DbSet<Recipe> Recipes { get; set; }
+        public DbSet<Ingredients> Ingredients { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
