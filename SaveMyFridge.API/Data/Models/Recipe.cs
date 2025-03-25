@@ -1,4 +1,4 @@
-﻿namespace SaveMyFridge.Models
+﻿namespace SaveMyFridge.Data.Models
 {
     public class Recipe
     {

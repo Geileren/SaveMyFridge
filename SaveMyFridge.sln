@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35828.75 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveMyFridge", "SaveMyFridge\SaveMyFridge.csproj", "{1CAD0AD5-D9EB-4ACD-A282-B38B6657AD07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveMyFridge.API", "SaveMyFridge.API\SaveMyFridge.API.csproj", "{E497AA37-8240-4D6F-B929-3BCB40AF1E6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1CAD0AD5-D9EB-4ACD-A282-B38B6657AD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CAD0AD5-D9EB-4ACD-A282-B38B6657AD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CAD0AD5-D9EB-4ACD-A282-B38B6657AD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E497AA37-8240-4D6F-B929-3BCB40AF1E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E497AA37-8240-4D6F-B929-3BCB40AF1E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E497AA37-8240-4D6F-B929-3BCB40AF1E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E497AA37-8240-4D6F-B929-3BCB40AF1E6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
