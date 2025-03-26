@@ -1,4 +1,6 @@
+using System;
 using Microsoft.EntityFrameworkCore;
+using SaveMyFridge.API.Data;
 using SaveMyFridge.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,13 @@ builder.Services.AddSwaggerGen();
 
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    DataSeeder.SeedDatabase(context);
+}
+
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
