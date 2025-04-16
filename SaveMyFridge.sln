@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveMyFridge.Api", "SaveMyFridge.Api\SaveMyFridge.Api.csproj", "{2573D325-6AFD-4683-8285-E17979A1B9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveMyFridge.Lib", "SaveMyFridge.Lib\SaveMyFridge.Lib.csproj", "{BDA45438-4C9C-4073-AFC8-2ED5EAD501AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2573D325-6AFD-4683-8285-E17979A1B9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2573D325-6AFD-4683-8285-E17979A1B9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2573D325-6AFD-4683-8285-E17979A1B9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2573D325-6AFD-4683-8285-E17979A1B9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA45438-4C9C-4073-AFC8-2ED5EAD501AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA45438-4C9C-4073-AFC8-2ED5EAD501AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA45438-4C9C-4073-AFC8-2ED5EAD501AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA45438-4C9C-4073-AFC8-2ED5EAD501AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
