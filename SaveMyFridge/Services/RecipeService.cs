@@ -1,4 +1,4 @@
-﻿using SaveMyFridge.Data.Models;
+﻿using SaveMyFridge.Lib.Models;
 
 namespace SaveMyFridge.Services
 {
