@@ -1,0 +1,32 @@
+@startchen
+scale 2
+
+entity Recipe{
+    RecipeId
+    Name
+    Description
+    CookTime
+    Author
+    IsFavorite
+    
+}
+left to right direction
+entity Ingredient{
+    IngredientId
+    Name
+    Description
+    ExpirationDate
+    Price
+    Quantity
+    QuantityUnit
+}
+relationship Contains{
+    Quantity
+    QuantityUnit
+}
+
+Recipe -N- Contains
+Contains -N- Ingredient
+
+
+@endchen
